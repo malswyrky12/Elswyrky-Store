@@ -382,7 +382,23 @@
      الأسعار — عدّل هنا بس لما الأسعار تتغيّر
      كل سطر: عدد العملات + السعر المقابل
      ═══════════════════════════════════════════════════ */
-  const entries = [{"coins": 75.0, "price": 55.0}, {"coins": 100.0, "price": 75.0}, {"coins": 200.0, "price": 140.0}, {"coins": 300.0, "price": 195.0}, {"coins": 500.0, "price": 320.0}, {"coins": 700.0, "price": 420.0}, {"coins": 1000.0, "price": 590.0}, {"coins": 2000.0, "price": 1180.0}];
+  const entries = [
+    { coins: 75,    price: 55    },
+    { coins: 100,   price: 75    },
+    { coins: 150,   price: 105   },
+    { coins: 200,   price: 150   },
+    { coins: 300,   price: 200   },
+    { coins: 350,   price: 225   },
+    { coins: 500,   price: 300   },
+    { coins: 700,   price: 420   },
+    { coins: 830,   price: 500   },
+    { coins: 1000,  price: 570   },
+    { coins: 9000,  price: 5130  },
+    { coins: 10000, price: 5650  },
+    { coins: 30000, price: 16950 },
+    { coins: 50000, price: 28250 },
+    { coins: 99000, price: 55935 },
+  ];
   /* ═══════════════════════════════════════════════════ */
 
   function linearInterp(items, keyIn, keyOut, inputVal) {
